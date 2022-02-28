@@ -4,13 +4,13 @@ import com.example.demo.person.Person
 
 class House {
 
-    private Integer numOfRooms;
+    private Person person;
 
-    House(Integer roomCount) {
-        this.numOfRooms = roomCount
+    House(Person occupant) {
+        this.person = occupant
     }
 
-    void liveInHouse(Person occupant) {
-
+    String livesInHouse() {
+        return person + ' lives in this house'
     }
 }

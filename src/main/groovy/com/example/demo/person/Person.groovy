@@ -2,7 +2,7 @@ package com.example.demo.person
 
 import org.springframework.context.annotation.Configuration
 
-@Configuration
+
 class Person {
     private String firstName
     private String lastName
